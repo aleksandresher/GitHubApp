@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+  width: 480px;
+  height: 85px;
+  column-gap: 60px;
+}
+.footerSubContainers {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+}
+
+.locationImg {
+  width: 13.75px;
+  margin-right: 6.25px;
+  height: 20px;
+}
+.blogImg {
+  width: 20px;
+  height: 20px;
+}
+
+.twitterImg {
+  width: 20px;
+  height: 16.25px;
+}
+
+.companyImg {
+  width: 20px;
+  height: 19.45px;
+}
+
+.footerText {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  color: #4b6a9b;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nolink {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  color: #4b6a9b;
+}
+
+.darkFooterText {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  color: #fff;
+}

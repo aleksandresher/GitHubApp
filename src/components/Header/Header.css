@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  width: 730px;
+  height: 38px;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  margin-top: 50px;
+}
+.darkHeaderContainer {
+  display: flex;
+  align-items: center;
+  width: 730px;
+  height: 38px;
+  justify-content: space-between;
+  background-color: #141d2f;
+  margin-top: 50px;
+}
+.devfinder {
+  font-size: 26px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: #222731;
+}
+.nigthdevfinder {
+  font-size: 26px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: #fff;
+}
+.daynight {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.moonImg {
+  width: 20px;
+  height: 20px;
+}
+.dark {
+  font-size: 13px;
+  color: #697c9a;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+}
+.light {
+  font-size: 13px;
+  color: #90a4d4;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+}

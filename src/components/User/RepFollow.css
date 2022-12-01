@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.repofollow {
+  display: flex;
+  width: 480px;
+  height: 85px;
+  gap: 100px;
+  background-color: #f6f8ff;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-bottom: 37px;
+  margin-top: 20px;
+}
+.darkRepoFollow {
+  display: flex;
+  width: 480px;
+  height: 85px;
+  gap: 100px;
+  background-color: #141d2f;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-bottom: 37px;
+  margin-top: 20px;
+}
+.subContainers {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 400px;
+  color: #4b6a9b;
+  font-family: "Space Mono", monospace;
+}
+.darkTitle {
+  font-size: 13px;
+  font-weight: 400px;
+  color: #fff;
+  font-family: "Space Mono", monospace;
+}
+.numbers {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2b3442;
+  font-family: "Space Mono", monospace;
+}
+.darkNumbers {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Space Mono", monospace;
+}

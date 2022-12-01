@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.bioContainer {
+  height: 50px;
+  width: 480px;
+  background-color: #fff;
+  margin-top: 25px;
+}
+.darkBioContainer {
+  height: 50px;
+  width: 480px;
+  background-color: #1e2a47;
+  margin-top: 25px;
+}
+.userBio {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4b6a9b;
+  font-family: "Space Mono", monospace;
+}
+.darkUserBio {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Space Mono", monospace;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.containers {
+  display: flex;
+  align-items: center;
+  /* justify-items: first baseline; */
+  height: 60px;
+  justify-content: space-between;
+  width: 480px;
+  margin-top: 30px;
+}
+.userName {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2b3442;
+  font-family: "Space Mono", monospace;
+}
+.darkUserName {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+.userLogin {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  color: #0079ff;
+  padding-top: 5px;
+}
+.dateContainer {
+  display: flex;
+  padding-bottom: 23px;
+  align-items: center;
+  justify-items: flex-start;
+  height: 60px;
+}
+.registDate {
+  font-size: 15px;
+  color: #697c9a;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+}
+.darkRegistDate {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+}
+.nameLogin {
+  display: flex;
+  flex-direction: column;
+}
