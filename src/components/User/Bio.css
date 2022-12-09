@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-.bioContainer {
+.bioSubContainer {
   height: 50px;
   width: 480px;
   background-color: #fff;
-  margin-top: 25px;
+  margin-left: 180px;
 }
-.darkBioContainer {
+.darkBioSubContainer {
   height: 50px;
   width: 480px;
   background-color: #1e2a47;
-  margin-top: 25px;
+  margin-left: 180px;
 }
 .userBio {
   font-size: 15px;
@@ -23,4 +23,51 @@
   font-weight: 400;
   color: #fff;
   font-family: "Space Mono", monospace;
+}
+
+@media screen and (max-width: 770px) {
+  .bioSubContainer {
+    width: 400px;
+  }
+  .darkBioSubContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .bioSubContainer {
+    width: 300px;
+    margin-left: 130px;
+  }
+  .darkBioSubContainer {
+    width: 300px;
+    margin-left: 130px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bioSubContainer {
+    width: 270px;
+    margin-left: 100px;
+  }
+  .darkBioSubContainer {
+    width: 270px;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .bioSubContainer {
+    width: 270px;
+    margin-left: 30px;
+  }
+  .darkBioSubContainer {
+    width: 270px;
+    margin-left: 30px;
+  }
+  .userBio {
+    font-size: 13px;
+  }
+  .darkUserBio {
+    font-size: 13px;
+  }
 }

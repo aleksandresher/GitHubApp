@@ -4,10 +4,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
-  margin-top: 20px;
-  width: 480px;
+  padding-left: 170px;
+  padding-bottom: 20px;
   height: 85px;
-  column-gap: 60px;
+  column-gap: 40px;
 }
 .footerSubContainers {
   display: flex;
@@ -61,4 +61,44 @@ a:hover {
   font-weight: 400;
   font-family: "Space Mono", monospace;
   color: #fff;
+}
+@media screen and (max-width: 770px) {
+  .footer {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .footer {
+    width: 500px;
+    padding-left: 120px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 327px;
+    gap: 15px;
+  }
+  .footerText {
+    font-size: 13px;
+  }
+  .nolink {
+    font-size: 13px;
+  }
+  .darkFooterText {
+    font-size: 13px;
+  }
 }

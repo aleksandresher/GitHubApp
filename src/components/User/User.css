@@ -8,6 +8,7 @@
   justify-content: space-between;
   width: 480px;
   margin-top: 30px;
+  gap: 40px;
 }
 .userName {
   font-size: 26px;
@@ -49,4 +50,71 @@
 .nameLogin {
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 770px) {
+  .containers {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .containers {
+    width: 360px;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .containers {
+    width: 240px;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 5px;
+  }
+  .nameLogin {
+    width: 200px;
+  }
+  .userName {
+    font-size: 18px;
+  }
+  .dateContainer {
+    width: 200px;
+  }
+  .darkRegistDate {
+    width: 200px;
+  }
+  .darkUserName {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .containers {
+    width: 144px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nameLogin {
+    width: 150px;
+  }
+  .userName {
+    font-size: 16px;
+  }
+  .darkUserName {
+    font-size: 16px;
+  }
+  .userLogin {
+    font-size: 13px;
+  }
+  .dateContainer {
+    width: 150px;
+  }
+  .registDate {
+    width: 150px;
+    font-size: 13px;
+  }
+  .darkRegistDate {
+    width: 150px;
+    font-size: 13px;
+  }
 }

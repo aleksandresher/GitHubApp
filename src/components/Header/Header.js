@@ -1,5 +1,7 @@
 import React from "react";
 import "../../components/Header/Header.css";
+import Moon from "../../images/moon.png";
+import Sun from "../../images/sun.png";
 
 function Header({ toggle, onClick }) {
   return (
@@ -8,7 +10,7 @@ function Header({ toggle, onClick }) {
       <div className="daynight" onClick={onClick}>
         <p className={toggle ? "light" : "dark"}>{toggle ? "LIGHT" : "DARK"}</p>
         <img
-          src={toggle ? "./images/sun.png" : "./images/moon.png"}
+          src={toggle ? Sun : Moon}
           className="moonImg"
           alt="toggleofdaynight"
         />

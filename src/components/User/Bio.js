@@ -3,7 +3,7 @@ import "../../components/User/Bio.css";
 
 function Bio({ bio, toggle }) {
   return (
-    <div className={toggle ? "darkBioContainer" : "bioContainer"}>
+    <div className={toggle ? "darkBioSubContainer" : "bioSubContainer"}>
       <p className={toggle ? "darkUserBio" : "userBio"}>
         {bio ? bio : "This profile has no bio"}
       </p>
